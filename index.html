@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--CSS -->
+    <link rel="stylesheet" type="text/css" href="css/fontawesome-all.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+    <!--CSS-->
+
+    <title>javascript</title>
+</head>
+
+<body>
+    <!--************** start from here **************-->
+
+    <p id="demo">hello madrid</p>
+
+    <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+    <h2>JavaScript</h2>
+
+    <p id="js1"></p>
+    <h2>hala madrid</h2>
+    <p>My web.</p>
+
+    <p id="js1"></p>
+    <h2>JavaScript Statements</h2>
+
+    <p>A <b>JavaScript program</b> is a list of <b>statements</b> to be executed by a computer.</p>
+    <p id="js2"></p>
+    <p>Multiple statements on one line is allowed.</p>
+
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <p id="demo4"></p>
+    <p>x = 5, y = 2, calculate z = x + y, and display z:</p>
+
+    <p id="demo5"></p>
+    <p id="demo7"></p>
+    <p id="demo8"></p>
+
+<p id="demo6"></p>
+   <p>This example calls a function which performs a calculation and returns the result:</p>
+
+<p id="demo9"></p>
+   <p>Accessing a function without () will return the function definition instead of the function result:</p>
+<p id="demo10"></p>
+    <!--------------------------------->
+    <script>
+        document.getElementById("demo").innerHTML = "My First JavaScript";
+        document.getElementById("js1").innerHTML = 5 + 6;
+        var x, y, z; // Statement 1
+        x = 6; // Statement 2
+        y = 6; // Statement 3
+        z = x + y; // Statement 4
+
+        document.getElementById("js2").innerHTML =
+            "The value of z is " + z + ".";
+        var a, b, c;
+        a = 2;
+        b = 4;
+        c = a + b;
+        document.getElementById("demo1").innerHTML = c;
+
+        document.getElementById("demo2").innerHTML = 199.59;
+        document.getElementById("demo3").innerHTML = 'cr7 cr7';
+        /*
+lukaku is the real hero
+*/
+        var x = 5;
+        var y = 5;
+        var z = x + y;
+        document.getElementById("demo4").innerHTML =
+            "The value of z is: " + z;
+        var x = 5;
+        var y = 2;
+        var z = x + y;
+        document.getElementById("demo5").innerHTML = z;
+        var x = 5;
+var y = 2;
+var z = x * y;
+document.getElementById("demo6").innerHTML = z;
+        
+        var x = 11;
+x += 5;
+document.getElementById("demo7").innerHTML = x;
+        
+        var x = 16 + "Volvo";
+document.getElementById("demo8").innerHTML = x;
+        
+        var x = myFunction(7, 8);
+document.getElementById("demo9").innerHTML = x;
+
+function myFunction(a, b) {
+    return a * b;
+}
+        function toCelsius(f) {
+    return (3/7) * (f-32);
+}
+document.getElementById("demo10").innerHTML = toCelsius;
+
+    </script>
+    <!-------------------------------->
+
+    <!-- jQuery -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
